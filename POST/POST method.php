@@ -1,12 +1,13 @@
 <?php 	
 
 function myfunction($mytext) {
+		#API Key
 	  	$access_key = "YOUR ACCESS KEY HERE";	
 	  
-	  
+		#URL de la API
 		$url="https://apicultur.io/api/myapi";	
 
-		
+		#The Json that will added in the body of the request
 		$theUser = '{"texto" : "'.$mytext.'"}';	
 
   
